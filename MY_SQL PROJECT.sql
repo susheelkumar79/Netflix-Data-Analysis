@@ -1,0 +1,158 @@
+CREATE DATABASE NetflixDB;
+
+USE NetflixDB;
+
+CREATE TABLE netflix (
+    show_id VARCHAR(20),
+    type VARCHAR(20),
+    title VARCHAR(255),
+    director VARCHAR(255),
+    country VARCHAR(255),
+    release_year INT,
+    rating VARCHAR(20),
+    duration VARCHAR(50)
+);
+
+INSERT INTO netflix VALUES
+('s1','Movie','Title1','Director1','India',2020,'TV-MA','120 min'),
+('s2','TV Show','Title2','Director2','United States',2021,'TV-14','2 Seasons'),
+('s3','Movie','Title3','Director3','India',2022,'PG-13','130 min'),
+('s4','TV Show','Title4','Director4','South Korea',2021,'TV-MA','1 Season'),
+('s5','Movie','Title5','Director5','Spain',2020,'R','115 min'),
+('s6','Movie','Title6','Director6','India',2023,'UA','140 min'),
+('s7','TV Show','Title7','Director7','France',2022,'TV-MA','3 Seasons'),
+('s8','Movie','Title8','Director8','Germany',2019,'PG-13','125 min'),
+('s9','TV Show','Title9','Director9','Japan',2021,'TV-14','2 Seasons'),
+('s10','Movie','Title10','Director10','India',2023,'TV-MA','150 min'),
+('s11','Movie','Title11','Director11','India',2020,'TV-MA','118 min'),
+('s12','TV Show','Title12','Director12','Canada',2022,'TV-14','1 Season'),
+('s13','Movie','Title13','Director13','United Kingdom',2021,'PG-13','132 min'),
+('s14','TV Show','Title14','Director14','Australia',2023,'TV-MA','2 Seasons'),
+('s15','Movie','Title15','Director15','India',2022,'UA','145 min'),
+('s16','TV Show','Title16','Director16','South Korea',2021,'TV-MA','3 Seasons'),
+('s17','Movie','Title17','Director17','France',2019,'R','121 min'),
+('s18','TV Show','Title18','Director18','Japan',2020,'TV-14','2 Seasons'),
+('s19','Movie','Title19','Director19','Germany',2023,'PG-13','136 min'),
+('s20','TV Show','Title20','Director20','Spain',2022,'TV-MA','1 Season'),
+('s21','Movie','Title21','Director21','India',2021,'TV-MA','124 min'),
+('s22','TV Show','Title22','Director22','United States',2020,'TV-14','4 Seasons'),
+('s23','Movie','Title23','Director23','Canada',2022,'PG-13','128 min'),
+('s24','TV Show','Title24','Director24','France',2023,'TV-MA','2 Seasons'),
+('s25','Movie','Title25','Director25','India',2021,'UA','142 min'),
+('s26','TV Show','Title26','Director26','United States',2022,'TV-MA','2 Seasons'),
+('s27','Movie','Title27','Director27','India',2020,'PG-13','126 min'),
+('s28','TV Show','Title28','Director28','South Korea',2021,'TV-14','1 Season'),
+('s29','Movie','Title29','Director29','Japan',2023,'TV-MA','138 min'),
+('s30','TV Show','Title30','Director30','Germany',2022,'TV-MA','3 Seasons'),
+('s31','Movie','Title31','Director31','France',2021,'R','122 min'),
+('s32','TV Show','Title32','Director32','Spain',2020,'TV-14','2 Seasons'),
+('s33','Movie','Title33','Director33','India',2022,'UA','148 min'),
+('s34','TV Show','Title34','Director34','Canada',2023,'TV-MA','1 Season'),
+('s35','Movie','Title35','Director35','United Kingdom',2021,'PG-13','134 min'),
+('s36','TV Show','Title36','Director36','Australia',2020,'TV-MA','4 Seasons'),
+('s37','Movie','Title37','Director37','India',2023,'TV-MA','144 min'),
+('s38','TV Show','Title38','Director38','Japan',2022,'TV-14','2 Seasons'),
+('s39','Movie','Title39','Director39','South Korea',2021,'R','129 min'),
+('s40','TV Show','Title40','Director40','France',2023,'TV-MA','3 Seasons'),
+('s41','Movie','Title41','Director41','Germany',2020,'PG-13','131 min'),
+('s42','TV Show','Title42','Director42','Spain',2022,'TV-14','1 Season'),
+('s43','Movie','Title43','Director43','India',2021,'UA','146 min'),
+('s44','TV Show','Title44','Director44','United States',2023,'TV-MA','2 Seasons'),
+('s45','Movie','Title45','Director45','Canada',2022,'PG-13','137 min'),
+('s46','TV Show','Title46','Director46','Japan',2020,'TV-14','4 Seasons'),
+('s47','Movie','Title47','Director47','India',2023,'TV-MA','152 min'),
+('s48','TV Show','Title48','Director48','South Korea',2021,'TV-MA','2 Seasons'),
+('s49','Movie','Title49','Director49','France',2022,'R','119 min'),
+('s50','TV Show','Title50','Director50','Germany',2023,'TV-14','1 Season'),
+('s51','Movie','Title51','Director51','India',2020,'TV-MA','125 min'),
+('s52','TV Show','Title52','Director52','United States',2021,'TV-14','3 Seasons'),
+('s53','Movie','Title53','Director53','Canada',2022,'PG-13','133 min'),
+('s54','TV Show','Title54','Director54','France',2023,'TV-MA','2 Seasons'),
+('s55','Movie','Title55','Director55','India',2021,'UA','141 min'),
+('s56','TV Show','Title56','Director56','South Korea',2020,'TV-MA','1 Season'),
+('s57','Movie','Title57','Director57','Japan',2022,'R','127 min'),
+('s58','TV Show','Title58','Director58','Germany',2021,'TV-14','2 Seasons'),
+('s59','Movie','Title59','Director59','Spain',2023,'PG-13','136 min'),
+('s60','TV Show','Title60','Director60','India',2022,'TV-MA','4 Seasons'),
+('s61','Movie','Title61','Director61','United Kingdom',2021,'PG-13','128 min'),
+('s62','TV Show','Title62','Director62','Australia',2020,'TV-MA','2 Seasons'),
+('s63','Movie','Title63','Director63','India',2023,'TV-MA','149 min'),
+('s64','TV Show','Title64','Director64','Canada',2022,'TV-14','1 Season'),
+('s65','Movie','Title65','Director65','France',2021,'R','121 min'),
+('s66','TV Show','Title66','Director66','Japan',2023,'TV-MA','3 Seasons'),
+('s67','Movie','Title67','Director67','Germany',2020,'PG-13','135 min'),
+('s68','TV Show','Title68','Director68','Spain',2022,'TV-14','2 Seasons'),
+('s69','Movie','Title69','Director69','India',2021,'UA','143 min'),
+('s70','TV Show','Title70','Director70','South Korea',2023,'TV-MA','1 Season'),
+('s71','Movie','Title71','Director71','United States',2022,'PG-13','139 min'),
+('s72','TV Show','Title72','Director72','Canada',2021,'TV-MA','4 Seasons'),
+('s73','Movie','Title73','Director73','India',2020,'TV-MA','126 min'),
+('s74','TV Show','Title74','Director74','France',2022,'TV-14','2 Seasons'),
+('s75','Movie','Title75','Director75','Japan',2023,'R','132 min'),
+('s76','TV Show','Title76','Director76','Germany',2021,'TV-MA','3 Seasons'),
+('s77','Movie','Title77','Director77','India',2022,'UA','147 min'),
+('s78','TV Show','Title78','Director78','Spain',2020,'TV-14','1 Season'),
+('s79','Movie','Title79','Director79','South Korea',2023,'TV-MA','151 min'),
+('s80','TV Show','Title80','Director80','United States',2022,'TV-MA','2 Seasons'),
+('s81','Movie','Title81','Director81','Canada',2021,'PG-13','129 min'),
+('s82','TV Show','Title82','Director82','France',2020,'TV-14','4 Seasons'),
+('s83','Movie','Title83','Director83','India',2023,'TV-MA','145 min'),
+('s84','TV Show','Title84','Director84','Japan',2022,'TV-MA','1 Season'),
+('s85','Movie','Title85','Director85','Germany',2021,'R','124 min'),
+('s86','TV Show','Title86','Director86','Spain',2023,'TV-14','2 Seasons'),
+('s87','Movie','Title87','Director87','India',2020,'UA','140 min'),
+('s88','TV Show','Title88','Director88','South Korea',2022,'TV-MA','3 Seasons'),
+('s89','Movie','Title89','Director89','United States',2021,'PG-13','137 min'),
+('s90','TV Show','Title90','Director90','Canada',2023,'TV-14','1 Season'),
+('s91','Movie','Title91','Director91','France',2022,'R','123 min'),
+('s92','TV Show','Title92','Director92','Japan',2021,'TV-MA','2 Seasons'),
+('s93','Movie','Title93','Director93','India',2023,'TV-MA','154 min'),
+('s94','TV Show','Title94','Director94','Germany',2020,'TV-14','4 Seasons'),
+('s95','Movie','Title95','Director95','Spain',2022,'PG-13','130 min'),
+('s96','TV Show','Title96','Director96','India',2021,'TV-MA','1 Season'),
+('s97','Movie','Title97','Director97','South Korea',2023,'R','142 min'),
+('s98','TV Show','Title98','Director98','United States',2022,'TV-14','3 Seasons'),
+('s99','Movie','Title99','Director99','Canada',2021,'PG-13','127 min'),
+('s100','TV Show','Title100','Director100','India',2023,'TV-MA','2 Seasons');
+SELECT * FROM netflix;
+
+SELECT COUNT(*) FROM netflix;
+
+SELECT type, COUNT(*)
+FROM netflix
+GROUP BY type;
+
+SELECT country, COUNT(*)
+FROM netflix
+GROUP BY country
+ORDER BY COUNT(*) DESC;
+
+SELECT rating, COUNT(*)
+FROM netflix
+GROUP BY rating;
+
+SELECT release_year, COUNT(*)
+FROM netflix
+GROUP BY release_year
+ORDER BY release_year;
+
+SELECT *
+FROM netflix
+WHERE country='India';
+
+SELECT *
+FROM netflix
+WHERE type='Movie';
+
+SELECT *
+FROM netflix
+ORDER BY release_year DESC;
+
+SELECT country, AVG(release_year)
+FROM netflix
+GROUP BY country;
+
+SELECT release_year, COUNT(*) AS total_content
+FROM netflix
+GROUP BY release_year
+ORDER BY release_year;
